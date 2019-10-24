@@ -1,0 +1,19 @@
+<!-- app/views/layouts/application.html.erb -->
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flatiron Store</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<ol>
+ <li><h1>Flatiron Widgets: Open Orders</h1></li>
+ <li><h2>Welcome to Flatiron Open Orders</h2></li>
+ </ol>
+<%= yield %>
+ 
+</body>
+</html>
